@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+.inc-dec {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+}
+
+.remove-item {
+  user-select: none;
+  font-size: 26px;
+  font-weight: 700;
+  color: red;
+  cursor: pointer;
+}
+
+.login-input {
+  padding: 10px 15px;
+}
